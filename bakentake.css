@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'inter','cursive' ;
+}
+.header{
+height:80px;
+background :#020202;
+display:flex;
+justify-content: space-between;
+align-items:center;
+}
+.header-logo{
+    width:52px;
+    height:52px;
+    left:84px;
+    top:0px;
+}
+.logo-name{
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight:700px;
+    font-size: 30px;
+    line-height:24px;
+    color:white;
+}
+.logo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+}
+.ul{
+    list-style-type: none;
+}
+.nav-links
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 15px;
+    color: #EAEFF0
+}
+.nav-link{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #EAEFF0;
+}
+#login-button{
+    font-weight: 500;
+    background: transparent;
+    font-size: 20px;
+    color: #EAEFF0;
+    cursor:pointer;
+}
+#signup-button{
+    font-weight: 500;
+    background:#69a799 ;
+    width: 120px;
+    height:48px
+    padding: 12px 24px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main {
+    display:flex;
+}
+.left-main{
+flex: basis 55%;
+margin-top: 10px;
+padding: 50px 0 0 40px;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+
+}
+.right-main{
+    flex: basis 45%;
+    margin-bottom: 10px;
+    
+}
+.hero-image{
+    height: 100%;
+}
+.left-main{
+    margin-bottom: 30px;
+}
+.left-main h1{
+    color:#69a799;
+    font-weight: 900;
+    font-size: 56px;
+}
+.left-main h2{
+    color:#FF9191;
+    font-size: 56px;
+    font-family: 'Dancing Script',cursive;
+}
+.left-main p{
+    line-height: 25px;
+}
+#explore-now-button
+{
+    border-radius: 67px;
+    background: #69A799;
+    padding: 20px 40px 20px 40px;
+    color: white;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 11px -7px rgba(168,161,168,1);
+}
+#order-now-button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    padding: 20px 40px 20px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 11px -7px rgba(168,161,168,1);
+}
+.alt-section {
+
+    display: flex;
+
+    padding: 0 0 0 40px;
+
+    background-color: #EAEFF0;
+
+}
+
+ 
+
+.form-section {
+
+   margin-top: 30px;
+
+   flex-basis: 55%;
+
+}
+
+ 
+
+.video-container {
+
+   flex-basis: 45%;
+
+   justify-content: center;
+
+   margin-top: 30px;
+
+}
+
+ 
+
+.video-container video {
+
+   width: 80%    !important;
+
+   height: auto   !important;
+
+}
+
+ 
+
+.form-section > * {
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.form-section h3 {
+
+   color:#69A799;
+
+   font-family: 'Noteworthy';
+
+   font-style: normal;
+
+   font-weight: 700;
+
+   font-size: 36px;
+
+}
+
+ 
+
+.user-name {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.user-name > div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+}
+
+ 
+
+.form-input {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+    align-items: flex-start;
+
+    gap: 5px;
+
+}
+
+ 
+
+.form-input-check {
+
+    margin-bottom: 20px;
+
+}
+
+.submit-button {
+
+    border: none;
+
+    outline: none;
+
+    width: 500px;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    color: #ffffff;
+
+    background-color: #69A799;
+
+    border: 1px solid #7F56D9;
+
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+}
+
+ 
+
+.footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 10px;
+
+}
+
+.footer > * {
+
+    margin-bottom: 10px;
+
+}
+
+.social-icons {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+@media only screeen and (max-width:880px);
+{
+    .header{
+        display: flex;
+        flex direction:column;
+        gap:1em;
+        height:fit-content;
+    }
+    .nav-links{
+        gap:1em;
+    }
+    .main{
+        display: flex;
+        flex direction:column;
+        height:fit-content;
+    }
+    .left-main{
+        display: flex;
+        flex direction:column;
+        justify-content:center;
+        align-item:center;
+        gap:1em;
+    }
+}
